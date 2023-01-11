@@ -26,8 +26,6 @@ class HomeScreen extends StatelessWidget {
                       ),
                 ),
               ),
-              // CourseCard(),
-
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
@@ -41,7 +39,6 @@ class HomeScreen extends StatelessWidget {
                   ],
                 ),
               ),
-
               Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: Text(
